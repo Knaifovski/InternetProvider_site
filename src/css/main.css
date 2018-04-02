@@ -1,0 +1,185 @@
+.bcb {
+  background-color: #499cff; }
+
+.bcp {
+  background-color: #7c1b8c; }
+
+.bcr {
+  background-color: #ff6464; }
+
+.bcw {
+  background-color: #fff; }
+
+body {
+  font-family: "RobotoRegular";
+  margin: 0;
+  padding: 0;
+  color: #3c3c3c; }
+
+.face {
+  display: block;
+  border-bottom: 2px solid black;
+  background-color: #fff; }
+  .face .myebalo {
+    display: block;
+    background-image: url(../img/kek.png);
+    width: 300px;
+    height: 158px; }
+  .face .contacts {
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #7c1b8c; }
+    .face .contacts .descr {
+      display: block;
+      margin-top: 80px;
+      vertical-align: middle; }
+      .face .contacts .descr h1 {
+        margin-top: 20px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-size: 41px;
+        font-weight: bold; }
+  .face .soc-area {
+    display: block;
+    margin-top: 93px;
+    margin-right: 50px;
+    text-align: right;
+    float: right;
+    vertical-align: middle;
+    text-transform: uppercase; }
+    .face .soc-area .soc-buttons {
+      display: inline-block;
+      padding: 13px;
+      margin-left: 5px;
+      -webkit-border-radius: 8px;
+              border-radius: 8px;
+      border: 1px solid black;
+      font-weight: bolder;
+      background-color: #fff;
+      font-size: 20px;
+      text-decoration: none; }
+      .face .soc-area .soc-buttons.vk {
+        color: #5656d8; }
+      .face .soc-area .soc-buttons.ok {
+        color: #e2e244; }
+      .face .soc-area .soc-buttons.fb {
+        color: #161673; }
+
+.navbar ul {
+  text-align: center;
+  padding: 0;
+  padding-top: 50px; }
+  .navbar ul li {
+    display: inline-block;
+    padding-right: 40px; }
+    .navbar ul li a {
+      display: block;
+      text-align: center; }
+      .navbar ul li a span {
+        font-size: 50px;
+        color: #7c1b8c; }
+      .navbar ul li a p {
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 11px;
+        color: #3c3c3c; }
+
+.carousel-content .item .img {
+  display: block;
+  background-image: url(../img/uspex.jpg);
+  -webkit-background-size: 100% 100%;
+          background-size: 100%;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  min-height: 400px; }
+  .carousel-content .item .img.two {
+    background-image: url(../img/uspex1.jpg); }
+  .carousel-content .item .img.three {
+    background-image: url(../img/uspex3.jpg); }
+
+.price-list {
+  margin-top: 30px;
+  padding: 40px 0;
+  border-top: 2px solid #7c1b8c; }
+  .price-list h2 {
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #7c1b8c;
+    font-weight: bolder; }
+  .price-list a {
+    display: block;
+    border: 2px solid #8c8c8c;
+    padding: 20px 5px;
+    -webkit-border-radius: 12px;
+            border-radius: 12px;
+    color: #3c3c3c;
+    text-decoration: none; }
+    .price-list a:hover {
+      border: 2px solid #7c1b8c; }
+      .price-list a:hover .card {
+        border: 2px solid #7c1b8c; }
+        .price-list a:hover .card h3 {
+          font-weight: bold; }
+  .price-list .tariff {
+    display: block;
+    text-align: center;
+    background-color: #fff; }
+    .price-list .tariff .card {
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+      border: 2px solid #8c8c8c;
+      -webkit-border-radius: 150px;
+              border-radius: 150px;
+      padding: 90px 60px;
+      color: #7c1b8c; }
+      .price-list .tariff .card h3 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: underline; }
+      .price-list .tariff .card p {
+        margin: 0;
+        padding: 0;
+        color: #499cff; }
+    .price-list .tariff .discr {
+      margin-top: 20px; }
+      .price-list .tariff .discr p {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 2px;
+        border-bottom: 1px solid #3c3c3c;
+        text-align: center; }
+
+.advantages {
+  display: block;
+  padding: 20px 0;
+  text-align: center; }
+  .advantages .img {
+    background-image: url(../img/baba.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+            background-size: contain;
+    height: 400px; }
+  .advantages .discr {
+    text-align: left; }
+
+footer {
+  margin: 30px 0 0;
+  background-color: #cecece; }
+  footer .discr {
+    padding: 20px 0;
+    display: block;
+    text-align: left; }
+    footer .discr p {
+      color: #3c3c3c; }
+    footer .discr a {
+      color: #499cff;
+      text-decoration: none; }
